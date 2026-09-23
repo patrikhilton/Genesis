@@ -1,1 +1,9 @@
+@use 'vars';
+@use 'fonts';
+
 @import 'header';
+
+body {
+  font-family: fonts.$main-font;
+  color: vars.$text;
+}
