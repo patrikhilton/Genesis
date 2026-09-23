@@ -4,3 +4,32 @@
 header {
   color: vars.$text;
 }
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+&_logo {
+    color: vars.$text;
+    text-decoration: none;
+  }
+}
+.nav {
+  &_list {
+display: flex;
+gap: 29px;
+list-style: none;
+margin: 0;
+padding: 0;
+  }
+
+
+&_link {
+  color: vars.$text;
+  text-decoration: none;
+
+  
+}
+}
