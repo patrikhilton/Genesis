@@ -14,6 +14,8 @@ align-items: center;
 &_logo {
     color: vars.$text;
     text-decoration: none;
+    padding-top: 61px;
+    padding-left: 126px;
   }
 }
 .nav {
@@ -22,13 +24,15 @@ display: flex;
 gap: 29px;
 list-style: none;
 margin: 0;
-padding: 0;
+padding-top: 61px;
+padding-right: 125px;
   }
 
 
 &_link {
   color: vars.$text;
   text-decoration: none;
+  
 
   
 }
