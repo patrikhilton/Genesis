@@ -3,7 +3,7 @@
 
 @import 'header';
 @import 'hero';
-
+@import 'gallery';
 
 body {
   font-family: fonts.$main-font;
@@ -11,3 +11,4 @@ body {
   max-width: 1109px;
   margin: 0 auto;
 }
+

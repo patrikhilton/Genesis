@@ -1,0 +1,40 @@
+.grid {
+      &__position {
+    padding-top: 144px;
+  }
+  
+  &__container {
+    width: 100%;
+    height: 1960px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    grid-gap: 20px;
+
+   
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+  &__image-one    { grid-row: 1 / 8; }
+  &__image-two    { grid-row: 1 / 7; }
+  &__image-three  { grid-row: 1 / 11; }
+  &__image-four   { grid-row: 8 / 16; }
+  &__image-five   { grid-row: 7 / 14; }
+  &__image-six    { grid-row: 11 / 18; }
+  &__image-seven  { grid-row: 16 / 24; }
+  &__image-eight  { grid-row: 14 / 23; }
+  &__image-nine   { grid-row: 18 / 27; }
+  &__image-ten    { grid-row: 24 / 33; }
+  &__image-eleven { grid-row: 23 / 33; }
+  &__image-twelve { grid-row: 27 / 33; }
+}
+
+.column-left   { grid-column: 1 / 4; }
+.column-middle { grid-column: 4 / 7; }
+.column-right  { grid-column: 7 / 10; }
