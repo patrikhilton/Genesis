@@ -1,0 +1,56 @@
+@use 'vars';
+
+.awards {
+  padding-top: 101px;                       
+  border-bottom: 1px solid vars.$line;     
+
+  &_block {
+    display: flex;
+    border-top: 1px solid vars.$line;      
+    padding: 125px;                       
+  }
+
+  &_site {
+    width: 50px;                          
+    margin: 0;
+    font-size: 22px;                       
+    font-weight: 700;
+  }
+
+  &_items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;                        
+  }
+
+  &_item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_category {
+    width: 125px;                       
+    margin: 0;
+    font-weight: 700;
+  }
+
+  &_project {
+    flex: 1;
+  }
+
+  &_name {
+    margin: 0 0 8px;
+  }
+
+  &_text {
+    max-width: 190px;                
+    margin: 0;
+    font-size: 16px;                    
+    opacity: 0.6;                   
+  }
+
+  &_year {
+    margin: 0;
+  }
+}
