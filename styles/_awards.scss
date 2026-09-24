@@ -2,16 +2,18 @@
 
 .awards {
   padding-top: 101px;                       
-  border-bottom: 1px solid vars.$line;     
+  border-bottom: 2px solid vars.$line;     
 
+                     
   &_block {
-    display: flex;
-    border-top: 1px solid vars.$line;      
-    padding: 125px;                       
-  }
+  display: flex;
+  border-top: 2px solid vars.$line;
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
 
   &_site {
-    width: 50px;                          
+    width: 357px;                          
     margin: 0;
     font-size: 22px;                       
     font-weight: 700;
@@ -30,7 +32,7 @@
   }
 
   &_category {
-    width: 125px;                       
+    width: 214px;                       
     margin: 0;
     font-weight: 700;
   }
