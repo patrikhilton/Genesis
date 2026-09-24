@@ -1,0 +1,27 @@
+@use 'vars';
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 116px 0 60px;    
+
+  &_right {
+    display: flex;
+    align-items: center;
+    gap: 95px;            
+  }
+
+  &_social {
+    display: flex;
+    gap: 24px;             
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    img {
+      display: block;
+      width: 16px;       
+    }
+  }
+}

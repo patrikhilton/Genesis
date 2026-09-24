@@ -1,29 +1,30 @@
 @use 'vars';
 
-
-header {
-  color: vars.$text;
-}
-
 .header {
+color: vars.$text;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
+padding-top: 61px;
 
 &_logo {
     color: vars.$text;
     text-decoration: none;
-    padding-top: 61px;
   }
 }
+
+ img {
+      display: block;
+    }
+  
+
 .nav {
   &_list {
 display: flex;
 gap: 29px;
 list-style: none;
 margin: 0;
-padding-top: 61px;
+padding: 0;
   }
 
 
