@@ -2,8 +2,12 @@
 @use 'fonts';
 
 @import 'header';
+@import 'hero';
+
 
 body {
   font-family: fonts.$main-font;
   color: vars.$text;
+  max-width: 1109px;
+  margin: 0 auto;
 }
