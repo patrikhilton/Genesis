@@ -1,0 +1,48 @@
+@use 'vars';
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;                   
+
+  &_text {
+    max-width: 475px;                  
+  }
+
+  &_title {
+    font-size: 40px;                  
+    font-weight: 700;
+    line-height: 55px;                 
+    margin: 0 0 29px;                  
+  }
+
+  &_paragraph {
+    font-size: 16px;                   
+    line-height: 26px;                 
+    opacity: 0.8;                      
+    margin: 0 0 61px;                 
+  }
+
+  &_info {
+    width: 335px;                      
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &_row {
+    display: flex;
+    border-bottom: 1px solid vars.$line;   
+    padding: 18px 0;                   
+  }
+
+  &_label {
+    width: 137px;                     
+    flex-shrink: 0;
+    opacity: 0.5;                      
+  }
+
+  &_value {
+    font-weight: 700;
+  }
+}
