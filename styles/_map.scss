@@ -1,0 +1,10 @@
+.map {
+  padding-top: 120px;       
+
+  &_img {
+    display: block;
+    width: 100%;
+    height: 570px;         
+    object-fit: cover;
+  }
+}
