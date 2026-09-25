@@ -1,0 +1,59 @@
+@use 'vars';
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 110px;                       
+
+  &_text {
+    max-width: 475px;                       
+  }
+
+  &_title {
+    font-size: 40px;                    
+    font-weight: 700;
+    line-height: 55px;                     
+    margin: 0 0 22px;
+    max-width: 475px;                       
+  }
+
+  &_paragraph {
+    font-size: 16px;                        
+    line-height: 26px;                      
+    opacity: 0.8;                           
+    margin: 0;
+  }
+
+  &_form {
+    width: 475px;                           
+    display: flex;
+    flex-direction: column;
+    gap: 46px;                              
+  }
+
+  &_input {
+    font-size: 16px;                       
+    border: none;
+    border-bottom: 1px solid vars.$line-light;
+    padding: 8px 0;                         
+    resize: none;
+
+    &:focus {
+      outline: none;
+      border-bottom-color: vars.$accent;
+    }
+  }
+
+  &_button {
+    width: 125px;
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background: vars.$accent;
+    border: none;
+    padding: 10px 38px;                    
+    cursor: pointer;
+  }
+} 
