@@ -1,0 +1,13 @@
+.related {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;               
+  padding-top: 45px;       
+
+  &_img {
+    display: block;
+    width: 100%;
+    height: 400px;         
+    object-fit: cover;
+  }
+}
